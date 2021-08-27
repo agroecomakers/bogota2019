@@ -1,0 +1,32 @@
+/* Add here all your css styles (customizations) */
+/* the slides */
+.slick-slide {
+    margin: 0 27px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -27px;
+}
+.slick-track {
+    display: flex;
+}
+.slick-track .slick-slide {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control:focus, .custom-select:focus {
+    border-color: #0b26f7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-link.active {
+    border-color: #388E3C !important;
+    color: #388E3C !important;
+    border-bottom-width: 5px !important;
+}
+
+/* Portafolio */
